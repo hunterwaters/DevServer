@@ -13,7 +13,9 @@ API:
 Summary: This API has a number of protected endpoints with authentication and verification using web tokens. The API connects to a MongoDB database and stores profiles, users, and login credentials to the database. Using the MongoDB models, the API uses the users login credentials in order to retrieve their individual profile information and allows them to edit, delete, and add information to their profile on the application. Also, the API targets other users under the profile section of the application allowing other developers to communicate with one another and review their profiles and skills as well. The API also allows for a new user to login and make a profile from scratch.
 
 Endpoints: 
+
 Posts: 
+ 
  @route    POST api/posts
  @desc     Create a post
  @access   Private
@@ -47,6 +49,7 @@ Posts:
  @access   Private
  
  Profile:
+ 
  @route GET api/profile/me
  @description Get current users profile
  @access Private
@@ -88,6 +91,7 @@ Posts:
  @access Public
  
  Users: 
+ 
  @route POST api/users
  @description Register user
  @access Public
