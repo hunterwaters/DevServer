@@ -98,7 +98,7 @@ Posts:
  
  
 
-Description: This application is a social platform for developers. A user can register and build a profile with education and experience fields and connect with other developers. This app also allows the logged in user to have him/her github repos attatched to their profile for other developers to view. There is also a section to like, unlike, and comment on other developers post. Enjoy!!
+Description: This application is a social platform for developers. A user can register and build a profile with education and experience fields and connect with other developers. This application also allows the logged in user to have him/her github repos attatched to their profile for other developers to view. There is also a section to like, unlike, and comment on other developers post. Enjoy!!
 
 Technologies Used on Server: NodeJS, MongoDB, Mocha
 
